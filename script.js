@@ -19,23 +19,21 @@ $(document).ready(function() {
   console.log(currentHour)
 
 // Hour 9 Block
-  var hourBlock9 = dayjs().hour(9);
-  var hourComponent = hourBlock9.hour();
+  var hourBlock9 = dayjs().set('hour', 9);
+  // var hourComponent = hourBlock9.hour();
+  console.log(currentHour)
   console.log(hourBlock9)
   var timeBlock9 = $(".time-block9");
   
-
   if (hourBlock9.isAfter(currentHour)) {
     timeBlock9.removeClass('present future').addClass('past');
   } else if (hourBlock9.isBefore(currentHour)) {
     timeBlock9.removeClass('past present').addClass('future')
   } else {
     timeBlock9.removeClass('past future').addClass('present')};
-
     
   // Hour 10 Block
   var hourBlock10 = dayjs().hour(10);
-  // console.log(hourBlock10)
   var timeBlock10 = $(".time-block10");
 
     if (hourBlock10.isAfter(currentHour)) {
@@ -45,8 +43,98 @@ $(document).ready(function() {
     } else {
       timeBlock10.removeClass('past future').addClass('present')};
 
-      // console.log(hourBlock10)
+      // Hour 11 Block
+  var hourBlock11 = dayjs().set('hour',11);
+  var timeBlock11 = $(".time-block11");
+
+    if (hourBlock11.isAfter(currentHour)) {
+      timeBlock11.removeClass('present future').addClass('past');
+    } else if (hourBlock10.isBefore(currentHour)) {
+      timeBlock11.removeClass('past present').addClass('future')
+    } else {
+      timeBlock11.removeClass('past future').addClass('present')};
+
+          // Hour 12 Block
+  var hourBlock12 = dayjs().set('hour',12);
+  var timeBlock12 = $(".time-block12");
+
+    if (hourBlock12.isAfter(currentHour)) {
+      timeBlock12.removeClass('present future').addClass('past');
+    } else if (hourBlock12.isBefore(currentHour)) {
+      timeBlock12.removeClass('past present').addClass('future')
+    } else {
+      timeBlock12.removeClass('past future').addClass('present')};
+   
+      // Hour 1 Block
+  var hourBlock13 = dayjs().set('hour',13);
+  var timeBlock13 = $(".time-block13");
+
+    if (hourBlock13.isAfter(currentHour)) {
+      timeBlock13.removeClass('present future').addClass('past');
+    } else if (hourBlock13.isBefore(currentHour)) {
+      timeBlock13.removeClass('past present').addClass('future')
+    } else {
+      timeBlock13.removeClass('past future').addClass('present')};
+
+       // Hour 2 Block
+  var hourBlock14 = dayjs().set('hour',14);
+  var timeBlock14 = $(".time-block14");
+
+    if (hourBlock14.isAfter(currentHour)) {
+      timeBlock14.removeClass('present future').addClass('past');
+    } else if (hourBlock14.isBefore(currentHour)) {
+      timeBlock14.removeClass('past present').addClass('future')
+    } else {
+      timeBlock14.removeClass('past future').addClass('present')};
+
+      // Hour 3 Block
+  var hourBlock15 = dayjs().set('hour',15);
+  var timeBlock15 = $(".time-block15");
+
+    if (hourBlock15.isAfter(currentHour)) {
+      timeBlock15.removeClass('present future').addClass('past');
+    } else if (hourBlock15.isBefore(currentHour)) {
+      timeBlock15.removeClass('past present').addClass('future')
+    } else {
+      timeBlock15.removeClass('past future').addClass('present')};
+
+      // Hour 4 Block
+  var hourBlock16 = dayjs().set('hour',16);
+  var timeBlock16 = $(".time-block16");
+
+    if (hourBlock16.isAfter(currentHour)) {
+      timeBlock16.removeClass('present future').addClass('past');
+    } else if (hourBlock16.isBefore(currentHour)) {
+      timeBlock16.removeClass('past present').addClass('future')
+    } else {
+      timeBlock16.removeClass('past future').addClass('present')};
+
+      // Hour 5 Block
+  var hourBlock17 = dayjs().set('hour',16);
+  var timeBlock17 = $(".time-block17");
+
+    if (hourBlock17.isAfter(currentHour)) {
+      timeBlock17.removeClass('present future').addClass('past');
+    } else if (hourBlock17.isBefore(currentHour)) {
+      timeBlock17.removeClass('past present').addClass('future')
+    } else {
+      timeBlock17.removeClass('past future').addClass('present')};
+
+       // Hour 6 Block
+  var hourBlock18 = dayjs().set('hour',18);
+  var timeBlock18 = $(".time-block18");
+
+    if (hourBlock18.isAfter(currentHour)) {
+      timeBlock18.removeClass('present future').addClass('past');
+    } else if (hourBlock18.isBefore(currentHour)) {
+      timeBlock18.removeClass('past present').addClass('future')
+    } else {
+      timeBlock18.removeClass('past future').addClass('present')};
 });
+
+
+
+
 
 
  // TODO: Add a listener for click events on the save button. This code should
