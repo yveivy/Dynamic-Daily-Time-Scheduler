@@ -6,7 +6,7 @@ Dynamic Daily Time Scheduler is a simple calendar app that allows a user to keep
 
 In addition the app opens up with the current date and time at the top of the page, actively updated and powered by Day.js. The hour time blocks are updated by color based on if that hour has passed, is current or is later in the day. As the day progresses, the user can visually see time moving across their day. 
 
-[alt](dynamic-daily-time-scheduler.jpeg)
+![alt text](dynamic-daily-time-scheduler.jpeg)
 
 ## Features
 
